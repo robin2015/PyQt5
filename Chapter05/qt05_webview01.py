@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
 		self.setGeometry(5, 30, 1355, 730)
 		self.browser = QWebEngineView()
         # 加载外部页面
-		self.browser.load(QUrl('http://www.cnblogs.com/wangshuo1'))   				
+		self.browser.load(QUrl('http://www.iqiyi.com'))   				
 		self.setCentralWidget(self.browser)
 
 if __name__ == '__main__':
